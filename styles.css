@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(black, white);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+h2 {
+  font-family: "Kanit", sans-serif;
+}
+.quote {
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  margin: 5%;
+  padding: 2%;
+  border-radius: 10px;
+  background-color: black;
+  letter-spacing: 5px;
+  color: white;
+  text-shadow: 2px 0 0 black;
+}
+.text-box {
+  padding: 20%;
+  margin: 5%;
+  background-color: white;
+  border-radius: 50px;
+  font-size: 1.5rem;
+  line-height: 1.75;
+}
+.quote-person {
+  margin-top: 50px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.next-quote {
+  margin: 5%;
+  padding: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  background-color: black;
+  color: white;
+  border-radius: 100px;
+  transition: 0.5s;
+  transition-property: color, background-color;
+}
+.next-quote:hover {
+  background-color: white;
+  cursor: pointer;
+  color: black;
+}
